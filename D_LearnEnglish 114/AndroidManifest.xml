@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.d1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.d1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.d1.LevelActivity"
+            android:label="@string/title_activity_level" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Level01Activity"
+            android:label="@string/title_activity_level01" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Level11Activity"
+            android:label="@string/title_activity_level11" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Basic1Activity"
+            android:label="@string/title_activity_basic1" >
+        </activity>
+        <activity
+            android:name="com.example.d1.AdvancedActivity"
+            android:label="@string/title_activity_advanced" >
+        </activity>
+        <activity
+            android:name="com.example.d1.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.d1.ActI"
+            android:label="@string/title_activity_act_i" >
+        </activity>
+        <activity
+            android:name="com.example.d1.ActHe"
+            android:label="@string/title_activity_act_he" >
+        </activity>
+        <activity
+            android:name="com.example.d1.ActShe"
+            android:label="@string/title_activity_act_she" >
+        </activity>
+        <activity
+            android:name="com.example.d1.They"
+            android:label="@string/title_activity_they" >
+        </activity>
+        <activity
+            android:name="com.example.d1.We"
+            android:label="@string/title_activity_we" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Us"
+            android:label="@string/title_activity_us" >
+        </activity>
+        <activity
+            android:name="com.example.d1.It"
+            android:label="@string/title_activity_it" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Him"
+            android:label="@string/title_activity_him" >
+        </activity>
+        <activity
+            android:name="com.example.d1.His"
+            android:label="@string/title_activity_his" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Her"
+            android:label="@string/title_activity_her" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Them"
+            android:label="@string/title_activity_them" >
+        </activity>
+        <activity
+            android:name="com.example.d1.UseOfThis"
+            android:label="@string/title_activity_use_of_this" >
+        </activity>
+        <activity
+            android:name="com.example.d1.ThatThose"
+            android:label="@string/title_activity_that_those" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Is"
+            android:label="@string/title_activity_is" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Am"
+            android:label="@string/title_activity_am" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Was"
+            android:label="@string/title_activity_was" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Were"
+            android:label="@string/title_activity_were" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Will"
+            android:label="@string/title_activity_will" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Shall"
+            android:label="@string/title_activity_shall" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Have"
+            android:label="@string/title_activity_have" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Has"
+            android:label="@string/title_activity_has" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Had"
+            android:label="@string/title_activity_had" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Are"
+            android:label="@string/title_activity_are" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q1"
+            android:label="@string/title_activity_q1" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q2"
+            android:label="@string/title_activity_q2" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q3"
+            android:label="@string/title_activity_q3" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q4"
+            android:label="@string/title_activity_q4" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q5"
+            android:label="@string/title_activity_q5" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q6"
+            android:label="@string/title_activity_q6" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q7"
+            android:label="@string/title_activity_q7" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q8"
+            android:label="@string/title_activity_q8" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q9"
+            android:label="@string/title_activity_q9" >
+        </activity>
+        <activity
+            android:name="com.example.d1.Q10"
+            android:label="@string/title_activity_q10" >
+        </activity>
+    </application>
+
+</manifest>
